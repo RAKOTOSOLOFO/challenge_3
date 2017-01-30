@@ -41,14 +41,7 @@ article{
     border-radius: 5px;
     color:white;
     text-transform: uppercase;
-}
-#article2 button{
-    background-color: #27ae61;
-    padding: 1em 3em;
-    border: 1px solid #2b3f48;
-    border-radius: 5px;
-    color:white;
-    text-transform: uppercase;
+
 }
 #article1{
     background:url(../images/banner.png);
