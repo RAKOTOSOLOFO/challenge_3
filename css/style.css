@@ -1,45 +1,57 @@
 * {
     box-sizing: border-box;
     font-family: sans-serif;
+    font-family: 'News Cycle', sans-serif;
 }
 
 body{
-    width: 70%;
+    width: 1000px;
     margin: auto;
 }
+
+
+/*HEADER*/
+
 header{
     width: 100%;
-display:flex;
 }
 h1{
-    width: 30%;
-    padding-left: 5em;
+    display: inline-block;
+    width: auto;
+    height: 55px;
+    padding-left: 10%;
 }
-h2{
-    font-size: 3em;
+
+nav{
+    display: inline-block;
+    height: 50px;
 
 }
-p{
-    padding: 1.5em 0;
-}
-h3{
-    font-weight: lighter;
+ul {
 
-}
-ul{
-        display: inline-block;
+    margin-bottom: 1em;
+    display:inline-block;
 }
 li{
+    height: 30px;
     display: inline-block;
     text-transform: uppercase;
-    margin: 1em;
+    margin: 1em 0;
+    list-style: none;
 }
 .selected{
-
     color: #27ae61;
 }
-main{
 
+
+/*MAIN*/
+
+h2{
+    font-size: 3em;
+}
+h3{
+    font-size: 22px;
+    font-weight: lighter;
 }
 img{
     border-radius: 50%;
@@ -52,6 +64,19 @@ article{
     text-align: center;
     padding: 6em;
 }
+#article1{
+    background:url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#article1, #article3{
+    background-color: #27ae61;
+    color: white;
+}
+p{
+    padding: 1.5em 0;
+    font-size: 22px;
+}
 #article1 button{
     background-color: #2b3f48;
     padding: 1em 3em;
@@ -59,7 +84,6 @@ article{
     border-radius: 5px;
     color:white;
     text-transform: uppercase;
-
 }
 #article2 button{
     background-color: #27ae61;
@@ -69,8 +93,6 @@ article{
     color:white;
     text-transform: uppercase;
 }
-
-
 #article3 button{
     background-color: white;
     padding: 1em 3em;
@@ -79,19 +101,7 @@ article{
     color:#27ae61;
     text-transform: uppercase;
 }
-
-#article1{
-    background:url(../images/banner.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#article1, #article3{
-    background-color: #27ae61;
-    color: white;
-}
 footer{
-
     text-align: center;
     padding: 4em;
     text-transform: uppercase;
