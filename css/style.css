@@ -17,6 +17,8 @@ header{
     width: 80%;
     margin: auto;
     padding:0 6em;
+    height: auto;
+
 
 
 }
@@ -29,15 +31,15 @@ h1{
 
 nav{
     display: inline-block;
-    /*height: 50px;*/
-    margin-left:30%;
+    width: auto;
+    height: auto;
+    /*margin-left:30%;*/
+    /*float: right;*/
 
 }
 ul {
-
     margin-bottom: 1em;
     display:inline-block;
-
 }
 li{
     height: 30px;
