@@ -17,6 +17,8 @@ header{
     width: 80%;
     margin: auto;
     padding:0 6em;
+
+
 }
 h1{
     display: inline-block;
@@ -28,19 +30,22 @@ h1{
 nav{
     display: inline-block;
     /*height: 50px;*/
+    margin-left:30%;
 
 }
 ul {
 
     margin-bottom: 1em;
     display:inline-block;
+
 }
 li{
     height: 30px;
     display: inline-block;
     text-transform: uppercase;
-    margin: 1em 0;
+    margin: 1em 1em;
     list-style: none;
+
 }
 .selected{
     color: #27ae61;
@@ -53,17 +58,23 @@ color: inherit;
 }
 h2{
     font-size: 3em;
+    margin-bottom: 0.3em;
+    margin-top:0;
 }
 h3{
     font-size: 22px;
     font-weight: lighter;
+    margin:  0;
 }
 img{
     border-radius: 50%;
     height: 10em;
     max-width: 30%;
     height: auto;
-    margin: 0.2%;
+    margin: 0 1.5% ;
+    margin-bottom: 4em;
+
+
 }
 article{
     width: 100%;
@@ -82,7 +93,7 @@ article{
 p{
     width: 1000px;
     margin: auto;
-    padding: 1.5em 0;
+    padding: 2.5em 0;
     font-size: 22px;
 }
 #article1 button{
